@@ -1,0 +1,7 @@
+transformers
+datasets
+awscli==1.25.12
+streamlit
+black
+isort
+pyyaml==5.3.1
