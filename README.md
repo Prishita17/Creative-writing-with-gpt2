@@ -29,11 +29,11 @@ You can fine tune your own models using the command below - this will train on G
 $ python creative/train.py harry
 ```
 
-This will use the text from `./data/harry/clean.txt` and output a model to `./models/harry`:
+This will use the text from `./data/prishita/clean.txt` and output a model to `./models/prishita`:
 
 ```shell
-$ tree ./models/harry
-./models/harry/
+$ tree ./models/prishita
+./models/prishita/
 ├── checkpoint-1278
 │   ├── config.json
 │   ├── optimizer.pt
@@ -91,7 +91,7 @@ All examples below are generated with the model prompt `He opened the door`.
 
 # Data
 
-Training will look for a `clean.txt` file in `data/$AUTHOR/clean.txt` - this file should contain raw text - for example the `harry` dataset:
+Training will look for a `clean.txt` file in `data/$AUTHOR/clean.txt` - this file should contain raw text - for example the `prishita` dataset:
 
 ```shell
 $ head -n 1 data/harry/clean.txt
